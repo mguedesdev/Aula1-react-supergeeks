@@ -3,10 +3,7 @@
 }
 
 
-.nav-link:hover {
-    color: rgb(0, 136, 255)    ;
-}
-
 .nav-link {
     background-color: aliceblue;
+    color: red;
 }
