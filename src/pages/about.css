@@ -1,0 +1,14 @@
+.banner { 
+    background: linear-gradient(135deg, #7805dc 0%, #e6750c 100%);
+    padding: 20px;
+  
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .containerText {
+    width: 70%;
+    margin: 20px;
+  }
