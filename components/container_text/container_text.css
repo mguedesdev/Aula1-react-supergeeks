@@ -1,0 +1,14 @@
+.container_text {
+    width: 100%;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 1em ;
+    font-weight:bold;
+}
+
+p {
+    font-size: 0.8em ;
+    
+}
