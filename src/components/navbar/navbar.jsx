@@ -1,17 +1,18 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
 
 
-function Navbar_component(props) {
+function Navbar_component() {
   return (
       <Navbar bg='dark' variant='dark' >
         <Navbar.Brand className="mx-3" >Web Sr.Batata</Navbar.Brand>
         <Nav>
-          <Nav.Link onClick={() => {props.setCurrentPage(1)}}>Sobre</Nav.Link>
-          <Nav.Link onClick={() => {props.setCurrentPage(2)}}>Anotações</Nav.Link>
-          <Nav.Link onClick={() => {props.setCurrentPage(3)}}>Blog</Nav.Link>
-          <Nav.Link onClick={() => {props.setCurrentPage(4)}}>Notícias</Nav.Link>
+          <Link to ="/About" className='nav-link'>Sobre</Link>
+          <Link to ="/Notes" className='nav-link'> Anotações</Link>
+          <Link to ="/Blog" className='nav-link'>Blog</Link>
+          <Link to ="/News" className='nav-link'>Notícias</Link>
         </Nav>
       </Navbar>
   )
