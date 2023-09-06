@@ -2,18 +2,3 @@
   padding: 0%;
   margin: 0%;
 }
-
-.banner { 
-  background: linear-gradient(135deg, #360d5a 0%, #06458d 100%);
-  padding: 20px;
-
-}
-
-.white-text {
-  color: white;
-}
-
-.containerText {
-  width: 70%;
-  margin: 20px;
-}
